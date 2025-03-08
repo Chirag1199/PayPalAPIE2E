@@ -1,6 +1,6 @@
-package bdd.pojo;
+package bdd.Pojo;
 
-public class Links {
+public class Link {
 
     private String href;
     private String rel;
@@ -29,8 +29,4 @@ public class Links {
     public void setMethod(String method) {
         this.method = method;
     }
-
-
-
-
 }

@@ -1,4 +1,4 @@
-package bdd.pojo;
+package bdd.Pojo;
 
 public class Payee {
 
@@ -20,4 +20,5 @@ public class Payee {
     public void setMerchant_id(String merchant_id) {
         this.merchant_id = merchant_id;
     }
+
 }

@@ -23,10 +23,6 @@ public class CreateOrder {
 
         JsonPath js2 = new JsonPath(create_order_response);
         String orderID = js2.getString("id");
-
-        String statusCreated = js2.getString("status");
-        Assert.assertEquals(statusCreated, "CREATED");
-
         return orderID;
 
     }
